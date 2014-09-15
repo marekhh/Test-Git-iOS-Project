@@ -21,6 +21,7 @@
 		7E04666A19C6D3E200850683 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E04664C19C6D3E200850683 /* UIKit.framework */; };
 		7E04667219C6D3E200850683 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E04667019C6D3E200850683 /* InfoPlist.strings */; };
 		7E04667419C6D3E200850683 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E04667319C6D3E200850683 /* Git_TestTests.m */; };
+		7E04667F19C6D72400850683 /* MOTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E04667E19C6D72400850683 /* MOTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		7E04666F19C6D3E200850683 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		7E04667119C6D3E200850683 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7E04667319C6D3E200850683 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		7E04667D19C6D72400850683 /* MOTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOTest.h; sourceTree = "<group>"; };
+		7E04667E19C6D72400850683 /* MOTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				7E04665A19C6D3E200850683 /* Main.storyboard */,
 				7E04665D19C6D3E200850683 /* MOViewController.h */,
 				7E04665E19C6D3E200850683 /* MOViewController.m */,
+				7E04667D19C6D72400850683 /* MOTest.h */,
+				7E04667E19C6D72400850683 /* MOTest.m */,
 				7E04666019C6D3E200850683 /* Images.xcassets */,
 				7E04664F19C6D3E200850683 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 				7E04665919C6D3E200850683 /* MOAppDelegate.m in Sources */,
 				7E04665F19C6D3E200850683 /* MOViewController.m in Sources */,
 				7E04665519C6D3E200850683 /* main.m in Sources */,
+				7E04667F19C6D72400850683 /* MOTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
